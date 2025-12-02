@@ -18,8 +18,19 @@ fetch('./assets/data.json')
 .catch(err => console.error(err));
 
 
+// let xhr = new XMLHttpRequest();
 
+// xhr.open("GET",'./assets/data.json', true);
 
+// xhr.onreadystatechange = function () {
+//     if (this.readyState == 4 && this.status == 200) {
+//         console.log(this.responseText);
+//         const pippo = JSON.parse(this.responseText);
+//         console.log('questo è pippo!!', pippo)
+//     }
+// }
+
+// xhr.send();
 
 
 function dataCallback(data) {
